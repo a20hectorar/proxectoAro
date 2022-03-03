@@ -5,18 +5,28 @@ package circulo;
  * @author Hector
  */
 public class Aro {
-
-    private static final double LIMITERADIO = 0.0;
-    public static final double MINIMO = LIMITERADIO;
-
+    /**
+     * Constante que establece o radio mínimo.
+     */
+    public static final double LIMITERADIO = 0.0;
+   
+  
     private int coordenadaX;
     private int coordenadaY;
     private double radio;
     
-
+    /**
+     * Construtor por defecto
+     */
     public Aro() {
     }
 
+    /**
+     *
+     * @param valorX
+     * @param valorY
+     * @param valorRadio
+     */
     public Aro(int valorX, int valorY, double valorRadio) {
         coordenadaX = valorX;
         coordenadaY = valorY;
@@ -64,27 +74,47 @@ public class Aro {
      * @param radio the radio to set
      */
     public void setRadio(double radio) {
-        this.radio=(radio< MINIMO ? MINIMO : radio);
+        this.radio=(radio< LIMITERADIO ? LIMITERADIO : radio);
     }
     
+    /**
+     * Método para calcular o diámetro.
+     * @return diametro.
+     */
     public double obterDiametro() {
         return getRadio() * 2;
     }
 
+    /**
+     *Método para calcular a circunferencia.
+     * @return circunferencia.
+     */
     public double obterCircunferencia() {
         return Math.PI * obterDiametro();
     }
 
+    /**
+     *Método para calcular a superficie.
+     * @return superficie
+     */
     public double obterSuperficie() {
         return Math.PI * getRadio() * getRadio();
     }
 
+    /**
+     * A partir dos parámetros de entrada modifícanse as coordenadas.
+     * @param trasladarX
+     * @param trasladarY
+     */
     public void trasladarCentro(int trasladarX, int trasladarY){
         setCoordenadaX(getCoordenadaX() + trasladarX);
         setCoordenadaY(getCoordenadaY() + trasladarY);
     }
 
-    
+    /**
+     * Método que da a salida en texto do obxeto.
+     * @return cadena de caracteres.
+     */
     @Override
     public String toString() {
         return "Centro = [" + getCoordenadaX() + "," + getCoordenadaY() + "]; Radio = " + getRadio();
