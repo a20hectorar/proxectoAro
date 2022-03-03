@@ -36,6 +36,7 @@ public class Aro {
 
     
     /**
+     * Método para obter o valor de coordenadaX.
      * @return the coordenadaX
      */
     public int getCoordenadaX() {
@@ -43,6 +44,7 @@ public class Aro {
     }
 
     /**
+     * Método para establecer o valor de coordenadaX.
      * @param coordenadaX the coordenadaX to set
      */
     public void setCoordenadaX(int coordenadaX) {
@@ -50,6 +52,7 @@ public class Aro {
     }
 
     /**
+     * Método para obter o valor de coordenadaY.
      * @return the coordenadaY
      */
     public int getCoordenadaY() {
@@ -57,6 +60,7 @@ public class Aro {
     }
 
     /**
+     * Método para establecer o valor de coordenadaY.
      * @param coordenadaY the coordenadaY to set
      */
     public void setCoordenadaY(int coordenadaY) {
@@ -64,6 +68,7 @@ public class Aro {
     }
 
     /**
+     * Método para obter o valor de radio.
      * @return the radio
      */
     public double getRadio() {
@@ -71,6 +76,8 @@ public class Aro {
     }
 
     /**
+     * Método para establecer o valor de radio.
+     * 
      * @param radio the radio to set
      */
     public void setRadio(double radio) {
