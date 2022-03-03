@@ -24,7 +24,7 @@ public class AroTest {
     }
     
     /**
-     * Test of establecerX method, of class Aro.
+     * Test of setCoordenadaX method, of class Aro.
      */
     @Test
     public void testEstablecerX() {
@@ -35,7 +35,7 @@ public class AroTest {
     }
 
     /**
-     * Test of obterX method, of class Aro.
+     * Test of getCoordenadaX method, of class Aro.
      */
     @Test
     public void testObterX() {
@@ -47,7 +47,7 @@ public class AroTest {
     }
 
     /**
-     * Test of establecerY method, of class Aro.
+     * Test of setCoordenadaY method, of class Aro.
      */
     @Test
     public void testEstablecerY() {
@@ -58,7 +58,7 @@ public class AroTest {
     }
 
     /**
-     * Test of obterY method, of class Aro.
+     * Test of getCoordenadaY method, of class Aro.
      */
     @Test
     public void testObterY() {
@@ -70,7 +70,7 @@ public class AroTest {
     }
 
     /**
-     * Test of establecerRadio method, of class Aro.
+     * Test of setRadio method, of class Aro.
      */
     @Test
     public void testEstablecerRadio() {
@@ -82,7 +82,7 @@ public class AroTest {
     }
 
     /**
-     * Test of obterRadio method, of class Aro.
+     * Test of getRadio method, of class Aro.
      */
     @Test
     public void testObterRadio() {
