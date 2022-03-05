@@ -36,7 +36,7 @@ public class Aro {
 
     
     /**
-     * Método para obter o valor de coordenadaX.
+     * Obter o valor de coordenadaX.
      * @return the coordenadaX
      */
     public int getCoordenadaX() {
@@ -44,7 +44,7 @@ public class Aro {
     }
 
     /**
-     * Método para establecer o valor de coordenadaX.
+     * Establecer o valor de coordenadaX.
      * @param coordenadaX the coordenadaX to set
      */
     public void setCoordenadaX(int coordenadaX) {
@@ -52,7 +52,7 @@ public class Aro {
     }
 
     /**
-     * Método para obter o valor de coordenadaY.
+     * Obter o valor de coordenadaY.
      * @return the coordenadaY
      */
     public int getCoordenadaY() {
@@ -60,7 +60,7 @@ public class Aro {
     }
 
     /**
-     * Método para establecer o valor de coordenadaY.
+     * Establecer o valor de coordenadaY.
      * @param coordenadaY the coordenadaY to set
      */
     public void setCoordenadaY(int coordenadaY) {
@@ -68,7 +68,7 @@ public class Aro {
     }
 
     /**
-     * Método para obter o valor de radio.
+     * Obter o valor de radio.
      * @return the radio
      */
     public double getRadio() {
@@ -76,7 +76,7 @@ public class Aro {
     }
 
     /**
-     * Método para establecer o valor de radio.
+     * Establecer o valor de radio.
      * 
      * @param radio the radio to set
      */
@@ -85,7 +85,7 @@ public class Aro {
     }
     
     /**
-     * Método para calcular o diámetro.
+     * Calcular o diámetro.
      * @return diametro.
      */
     public double obterDiametro() {
@@ -93,7 +93,7 @@ public class Aro {
     }
 
     /**
-     *Método para calcular a circunferencia.
+     *Calcular a circunferencia.
      * @return circunferencia.
      */
     public double obterCircunferencia() {
@@ -101,7 +101,7 @@ public class Aro {
     }
 
     /**
-     *Método para calcular a superficie.
+     *Calcular a superficie.
      * @return superficie
      */
     public double obterSuperficie() {
@@ -119,7 +119,7 @@ public class Aro {
     }
 
     /**
-     * Método que da a salida en texto do obxeto.
+     * Da a salida en texto do obxeto.
      * @return cadena de caracteres.
      */
     @Override
